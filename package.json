@@ -1,5 +1,5 @@
 {
-  "name": "mikestraczek/nestjs-pdf",
+  "name": "@mikestraczek/nestjs-pdf",
   "version": "4.0.0",
   "description": "PDF generator for nestjs framework.",
   "main": "index.js",
