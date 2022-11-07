@@ -10,7 +10,7 @@ A simple PDF generator module for <a href="https://nestjs.com">nestjs</a> framew
 </p>
 
 <p align='center'>
-    <a href="https://www.npmjs.com/package/mikestraczek/nestjs-pdf" target='_blank'><img alt="npm" src="https://img.shields.io/npm/dm/mikestraczek/nestjs-pdf" alt="NPM Downloads"></a>
+    <a href="https://www.npmjs.com/package/@mikestraczek/nestjs-pdf" target='_blank'><img alt="npm" src="https://img.shields.io/npm/dm/mikestraczek/nestjs-pdf" alt="NPM Downloads"></a>
     <a href="https://coveralls.io/github/mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="Coveralls github" src="https://img.shields.io/coveralls/github/mikestraczek/nestjs-pdf"></a>
     <a href="https://npmjs.com/@mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="npm version" src="https://img.shields.io/npm/v/@mikestraczek/nestjs-pdf"></a>
     <a href="https://npmjs.com/@mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="LICENCE" src="https://img.shields.io/npm/l/@mikestraczek/nestjs-pdf"></a>
@@ -37,11 +37,11 @@ A simple PDF generator module for <a href="https://nestjs.com">nestjs</a> framew
 
 Installation is as simple as running:
 
-`npm install @t00nday/nestjs-pdf`
+`npm install @mikestraczek/nestjs-pdf`
 
 or
 
-`yarn add @t00nday/nestjs-pdf`.
+`yarn add @mikestraczek/nestjs-pdf`.
 
 ## Usage
 
@@ -53,7 +53,7 @@ A basic usage example:
 
 ```ts
 import { Module } from '@nestjs/common';
-import { PDFModule } from '@t00nday/nestjs-pdf';
+import { PDFModule } from '@mikestraczek/nestjs-pdf';
 
 @Module({
     imports: [
@@ -77,7 +77,7 @@ Examples below:
 
 ```ts
 import { Module } from '@nestjs/common';
-import { PDFModule, PDFModuleOptions } from '@t00nday/nestjs-pdf';
+import { PDFModule, PDFModuleOptions } from '@mikestraczek/nestjs-pdf';
 
 @Module({
     imports: [
@@ -103,7 +103,7 @@ export class AppModule {}
 import {
     PDFModuleOptions,
     PDFOptionsFactory,
-} from '@t00nday/nestjs-pdf';
+} from '@mikestraczek/nestjs-pdf';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -123,7 +123,7 @@ The `PdfConfigService` **SHOULD** implement the `PDFOptionsFactory`, **MUST** de
 
 ```ts
 import { Module } from '@nestjs/common';
-import { PDFModule } from '@t00nday/nestjs-pdf';
+import { PDFModule } from '@mikestraczek/nestjs-pdf';
 import { PdfConfigService } from './pdf-config.service';
 
 @Module({
@@ -143,7 +143,7 @@ export class AppModule {}
 
 ```ts
 import { Injectable } from '@nestjs/common';
-import { PDFService } from '@t00nday/nestjs-pdf';
+import { PDFService } from '@mikestraczek/nestjs-pdf';
 
 @Injectable()
 export class AppService {
@@ -226,7 +226,7 @@ After completing the configuration(s), you can go ahead and inject the `pdf` ser
 
 ```ts
 import { Injectable } from '@nestjs/common';
-import { PDFService } from '@t00nday/nestjs-pdf';
+import { PDFService } from '@mikestraczek/nestjs-pdf';
 
 @Injectable()
 export class YourService {
