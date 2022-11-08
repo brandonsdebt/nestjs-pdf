@@ -10,7 +10,7 @@ A simple PDF generator module for <a href="https://nestjs.com">nestjs</a> framew
 </p>
 
 <p align='center'>
-    <a href="https://www.npmjs.com/package/@mikestraczek/nestjs-pdf" target='_blank'><img alt="npm" src="https://img.shields.io/npm/dm/mikestraczek/nestjs-pdf" alt="NPM Downloads"></a>
+    <a href="https://www.npmjs.com/package/@mikestraczek/nestjs-pdf" target='_blank'><img alt="npm" src="https://img.shields.io/npm/dm/@mikestraczek/nestjs-pdf" alt="NPM Downloads"></a>
     <a href="https://coveralls.io/github/mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="Coveralls github" src="https://img.shields.io/coveralls/github/mikestraczek/nestjs-pdf"></a>
     <a href="https://npmjs.com/@mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="npm version" src="https://img.shields.io/npm/v/@mikestraczek/nestjs-pdf"></a>
     <a href="https://npmjs.com/@mikestraczek/nestjs-pdf" target="_blank" rel="noopener noreferrer"><img alt="LICENCE" src="https://img.shields.io/npm/l/@mikestraczek/nestjs-pdf"></a>
@@ -77,7 +77,10 @@ Examples below:
 
 ```ts
 import { Module } from '@nestjs/common';
-import { PDFModule, PDFModuleOptions } from '@mikestraczek/nestjs-pdf';
+import {
+    PDFModule,
+    PDFModuleOptions,
+} from '@mikestraczek/nestjs-pdf';
 
 @Module({
     imports: [
