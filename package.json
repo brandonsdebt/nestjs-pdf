@@ -40,12 +40,6 @@
   "bugs": {
     "url": "https://github.com/mikestraczek/nestjs-pdf/issues"
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
   "homepage": "https://github.com/mikestraczek/nestjs-pdf#readme",
   "publishConfig": {
     "access": "public"
